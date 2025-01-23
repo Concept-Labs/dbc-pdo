@@ -1,0 +1,34 @@
+{
+    "name": "concept-labs/dbd-pdo",
+    "type": "library",
+    "description": "(C)oncept-Labs DB PDO Driver",
+    "keywords": ["php","db", "PDO", "driver"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "concept-labs/config": "^1",
+        "concept-labs/dbc": "^1",
+        "concept-labs/dbd": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\DBD\\PDO\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "concept": {
+            "include": "concept.json"
+        }
+    }
+
+}
