@@ -1,0 +1,20 @@
+{
+    "singularity": {
+        "package": {
+            "concept-labs/dbc-pdo": {
+                "depends": {
+                    "concept-labs/dbc": {}
+                },
+                "preference": {
+                    "Concept\\DBC\\Driver\\DriverInterface": {
+                        "class": "Concept\\DBC\\PDO\\Driver\\PDODriver",
+                        "singleton": true
+                    },
+                    "Concept\\DBC\\Result\\ResultInterface": {
+                        "class": "Concept\\DBC\\PDO\\Result\\Result"
+                    }
+                }
+            }
+        }
+    }
+}

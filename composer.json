@@ -6,12 +6,12 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Mtr",
-            "email": "info.concept.labs@gmail.com"
+            "name": "Viktor Halytskyi",
+            "email": "concept.galitsky@gmail.com"
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.2",
         "concept-labs/config": "^1",
         "concept-labs/dbc": "^1"
     },
